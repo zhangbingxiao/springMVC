@@ -10,5 +10,12 @@
         <servlet-name>Servlet</servlet-name>
         <url-pattern>/servlet</url-pattern>
     </servlet-mapping>
-
+    <servlet>
+        <servlet-name>DispatcherServlet</servlet-name>
+        <servlet-class>com.springMvc.servlet.DispatcherServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DispatcherServlet</servlet-name>
+        <url-pattern>/</url-pattern>
+    </servlet-mapping>
 </web-app>
