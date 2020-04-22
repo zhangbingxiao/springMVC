@@ -24,6 +24,7 @@ public class BeanNameUrlHandlerMapping implements HandlerMapping {
     }
 
     public void init(){
+        //todo 后续改进
         urlHandlerMap.put("/queryUser",new QueryUserHandler());
         urlHandlerMap.put("/saveUser",new AddUserHandler());
     }

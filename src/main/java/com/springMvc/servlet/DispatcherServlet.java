@@ -57,6 +57,7 @@ public class DispatcherServlet extends AbstractHttpServlet {
      * @return
      */
     private Object getHandle(HttpServletRequest request) {
+        //匹配处理器
         HandlerMapping ha = null;
         Object handler = null;
         ha = new BeanNameUrlHandlerMapping();
